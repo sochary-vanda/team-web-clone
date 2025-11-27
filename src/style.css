@@ -1,2 +1,12 @@
 @import "tailwindcss";
 
+
+.mask1 {
+    mask-image: radial-gradient(circle,rgb(0,0,0,1) 40%,rgb(0,0,0,0) 100%);
+    margin-top: 0px;
+    padding-top: 0px;    
+    mask-image: linear-gradient(to top(black),to bottom(black), transparent);
+
+}
+
+
