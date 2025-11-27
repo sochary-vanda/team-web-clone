@@ -12,29 +12,39 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="/pages/index.css">
   </head>
   <body class="bg-[#14181c] text-white overflow-scroll">
     <div class="max-w-4xl mx-auto">
-      <header class="relative h-svh">
+     
+        <!--  head image -->
+         <div class="bg-[url('../images/Hamnet.avif')] bg-cover bg-center h-[500px]  w-[1200px] flex flex-col  items-between m-0 w-auto  ">
+            <nav class="flex flex-row justify-between ">
+                 <img src="../images/logo.svg" class="w-48" alt="Logo" />
+                 <div class=" flex items-center gap-x-4">
+                  <ul class="flex uppercase gap-x-5 text-[10px] font-medium ">
+                   <li><a href="#">sign in</a></li>
+                   <li><a href="#">create account</a></li>
+                   <li><a href="#">films</a></li>
+                   <li><a href="#">lists</a></li>
+                   <li><a href="#">members</a></li>
+                   <li><a href="#">journal</a></li>
+                   </ul>
+                   <input type="text" class="bg-white w-[140px] h-">
+                 </div>
+             </nav>
+             <div>
+               <h2></h2>
+             </div>
+            
+            
 
-        <nav class=" flex items-center justify-between mt-1 top-0 ">
-          <img src="../images/logo.svg" class="w-48" alt="Logo" />
-          <div class=" flex items-center">
-            <ul class="flex uppercase gap-x-4 text-[10px] font-medium mr-3 tracking-wider">
-              <li><a href="#">sign in</a></li>
-              <li><a href="#">create account</a></li>
-              <li><a href="#">films</a></li>
-              <li><a href="#">lists</a></li>
-              <li><a href="#">members</a></li>
-              <li><a href="#">journal</a></li>
-            </ul>
-            <input type="text" class="bg-white opacity-30 rounded-xl w-32 focus:outline-none focus:ring-0 focus:opacity-100 text-black">
+
+
           </div>
-        </nav>
+        
 
-        <img src="../images/Hamnet.avif" class="absolute top-0 -z-10">
-
-      </header>
+       
 
       <main>
 
@@ -55,7 +65,7 @@
               <span>popular reviews this week</span>
               <span>more</span>
             </div>
-
+<!--  [popular review this week] -->
             <div class="flex flex-col gap-y-6">
               <!-- Card popular 1 -->
               <div class="flex gap-x-8 border-t border-gray-500 pt-2">
@@ -248,6 +258,7 @@
               
               
               <!-- POPULAR LIST IMAGES -->
+               <!-- popular reviews this week -->
               <div class="relative h-26">
                   <img src="../images/popular-list-1.jpg" alt="" class="h-24 absolute left-0 top-0 z-50">
                   <img src="../images/popular-list-.2.jpg" alt="" class="h-24 absolute left-10 top-0 z-40">
