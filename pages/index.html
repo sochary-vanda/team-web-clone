@@ -12,17 +12,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-   
+    <link rel="stylesheet" href="../src/style.css" />
+    <script src="https://kit.fontawesome.com/2c524d24f4.js" crossorigin="anonymous"></script>
   </head>
-  <body class="bg-[#14181c] text-white  " >
+  <body class="bg-[#14181c] text-white  flex flex-col items-center " style="background-color:black">
     <div class="max-w-4xl mx-auto">
      
         <!--  head image -->
-         <div class="bg-[url('../images/Hamnet.avif')] bg-cover bg-center h-[500px]  w-[1200px] flex flex-col  items-between m-0 w-auto  ">
-            <nav class="flex flex-row justify-between mx-[225px]">
-                 <img src="../images/logo.svg" class="w-48" alt="Logo" />
-                 <div class=" flex items-center gap-x-4">
-                  <ul class="flex uppercase gap-x-5 text-[10px] font-medium ">
+          
+         <div class="bg-[url('../images/whatever.png')] bg-cover bg-center h-[500px]  w-[1200px]  m-0 w-auto flex flex-col justify-between mask-b-from-5% mask-b-to-100%" >
+          
+              <nav class="flex flex-row justify-between pt-[20px]">
+                 <img src="../images/logo.svg" class="w-auto h-[50px]"  alt="Logo" />
+                 <div class=" flex items-center justify-center gap-3 ">
+                  <ul class="flex uppercase font-bold  flex items-center justify-center gap-3" style="font-size: 13px">
                    <li><a href="#">sign in</a></li>
                    <li><a href="#">create account</a></li>
                    <li><a href="#">films</a></li>
@@ -30,26 +33,44 @@
                    <li><a href="#">members</a></li>
                    <li><a href="#">journal</a></li>
                    </ul>
-                   <input type="text" class="bg-white w-[140px] h-">
+                   <input type="text" class="rounded-full "  style="background-color: rgba(255,255,255, .25); padding: 6px 20px 6px 10px; width: 150px"/>
                  </div>
              </nav>
-             <div>
-               <h2></h2>
-             </div>
-            
-            
-
-
-
+           
           </div>
-        
+          <div class="flex flex-col items-center  mt-[-80px]" style=" font-family:Georgia, 'Times New Roman', Times, serif; font-size:24px; text-align:center; font-weight: 900 ;" >
+                <h2>Track films you've watched.
+                  <br> Save those you want to see. 
+                  <br> Tell your friends what's good. 
+                </h2> 
+                
+                
+             </div>
+ 
+  <!-- end of the heading section  -->
+  <!-- button and description-->
+   <div class="flex items-center flex-col p-[15px] my-[30px]">
+    <button class="bg-green-600 hover:bg-red-700 text-white font-bold rounded-sm   p-[10px]">
+      Join Letterboxd Free
+    </button>
+    <div class="flex items-center flex-row justify-center gap-2  font-bold  p-[35px]">
+      <h3 >The social network for film lovers. </h3>
+      <h3>Also available on </h3> 
+      <i class="fa-brands fa-apple "></i>
+      <i class="fa-brands fa-android"></i>
+    </div>
+   </div>
+   
 
+  <!-- button -->
        
 
+
+
+
+
+
       <main>
-
- 
-
 
         <!-- POPULAR SECTION -->
         <section class="grid grid-cols-3 gap-x-16">
