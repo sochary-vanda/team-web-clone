@@ -13,7 +13,56 @@
 }
 .card-border {
     border: 1px solid #667788 ;
-    border-radius: 5px;
+    border-radius: 3px;
 }
-
+.panel-card {
+    background-color: #445566;
+    padding: 16px 20px 18px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    border-radius: 5px;
+    color: #DDEEFF;
+    font-size: 13px;
+}
+.fa {
+    font-size: 37px;
+    
+}
+.panel-text {
+     display: flex;
+     flex-wrap: wrap;
+}
+.card-title {
+    text-transform: uppercase;
+    padding: 20px 0px 10px;
+}
+.let-you {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+.card1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px
+}
+.border {
+   border-bottom: 1px solid #08233e ;
+   
+   margin-bottom: 4px;
+    
+}
+.review-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+}
+.review {
+    display:flex;
+    flex-direction: row;
+    gap: 7px;
+    padding: 10px 0px 32px;
+}
 
