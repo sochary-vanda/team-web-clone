@@ -11,5 +11,9 @@
 .mask2 {
     mask-image: linear-gradient(to top(black),to bottom(black), transparent);
 }
+.card-border {
+    border: 1px solid #667788 ;
+    border-radius: 5px;
+}
 
 
